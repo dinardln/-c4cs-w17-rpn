@@ -9,5 +9,5 @@ class TestBasics(unittest.TestCase):
 		result = rpn.calculate('5 3 -')
 		self.assertEqual(2, result)
 	def test_exp(self):
-		result = rpg.calculate('4 2 ^')
+		result = rpn.calculate('4 2 ^')
 		self.assertEqual(16, result)
